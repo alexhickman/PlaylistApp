@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		88B0442A1C9233CF008A6738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B044291C9233CF008A6738 /* main.m */; };
 		88B0442D1C9233D0008A6738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B0442C1C9233D0008A6738 /* AppDelegate.m */; };
-		88B044301C9233D0008A6738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B0442F1C9233D0008A6738 /* ViewController.m */; };
+		88B044301C9233D0008A6738 /* PlayListMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B0442F1C9233D0008A6738 /* PlayListMasterViewController.m */; };
 		88B044331C9233D0008A6738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B044311C9233D0008A6738 /* Main.storyboard */; };
 		88B044351C9233D0008A6738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B044341C9233D0008A6738 /* Assets.xcassets */; };
 		88B044381C9233D0008A6738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B044361C9233D0008A6738 /* LaunchScreen.storyboard */; };
+		88B044411C923959008A6738 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B044401C923959008A6738 /* PlaylistDetailViewController.m */; };
+		88B044441C924E2D008A6738 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B044431C924E2D008A6738 /* MusicLibrary.m */; };
+		88B044471C9258B8008A6738 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B044461C9258B8008A6738 /* Playlist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		88B044291C9233CF008A6738 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88B0442B1C9233CF008A6738 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88B0442C1C9233D0008A6738 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		88B0442E1C9233D0008A6738 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		88B0442F1C9233D0008A6738 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88B0442E1C9233D0008A6738 /* PlayListMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayListMasterViewController.h; sourceTree = "<group>"; };
+		88B0442F1C9233D0008A6738 /* PlayListMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayListMasterViewController.m; sourceTree = "<group>"; };
 		88B044321C9233D0008A6738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88B044341C9233D0008A6738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88B044371C9233D0008A6738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88B044391C9233D0008A6738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B0443F1C923959008A6738 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
+		88B044401C923959008A6738 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
+		88B044421C924E2D008A6738 /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		88B044431C924E2D008A6738 /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
+		88B044451C9258B8008A6738 /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		88B044461C9258B8008A6738 /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				88B0442B1C9233CF008A6738 /* AppDelegate.h */,
 				88B0442C1C9233D0008A6738 /* AppDelegate.m */,
-				88B0442E1C9233D0008A6738 /* ViewController.h */,
-				88B0442F1C9233D0008A6738 /* ViewController.m */,
+				88B044421C924E2D008A6738 /* MusicLibrary.h */,
+				88B044431C924E2D008A6738 /* MusicLibrary.m */,
+				88B044451C9258B8008A6738 /* Playlist.h */,
+				88B044461C9258B8008A6738 /* Playlist.m */,
+				88B0442E1C9233D0008A6738 /* PlayListMasterViewController.h */,
+				88B0442F1C9233D0008A6738 /* PlayListMasterViewController.m */,
+				88B0443F1C923959008A6738 /* PlaylistDetailViewController.h */,
+				88B044401C923959008A6738 /* PlaylistDetailViewController.m */,
 				88B044311C9233D0008A6738 /* Main.storyboard */,
 				88B044341C9233D0008A6738 /* Assets.xcassets */,
 				88B044361C9233D0008A6738 /* LaunchScreen.storyboard */,
@@ -149,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B044301C9233D0008A6738 /* ViewController.m in Sources */,
+				88B044301C9233D0008A6738 /* PlayListMasterViewController.m in Sources */,
+				88B044471C9258B8008A6738 /* Playlist.m in Sources */,
+				88B044411C923959008A6738 /* PlaylistDetailViewController.m in Sources */,
 				88B0442D1C9233D0008A6738 /* AppDelegate.m in Sources */,
 				88B0442A1C9233CF008A6738 /* main.m in Sources */,
+				88B044441C924E2D008A6738 /* MusicLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
